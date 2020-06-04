@@ -14,11 +14,16 @@ Education
 * B.S. in Chemistry, Ocean University of China, 2018
 * M.S. in Oceanography, Florida State University, 2020 (expected)
 
+Field Work
+======
+* 2019 4 day cruise aboard R/V Weatherbird studying carbon, nitrogen, and iron cycling in the Gulf of Mexico, responsible for radium sampling
+* 2018 two weeks cruise aboard dongfanghong studying sampling and analyzing skills in the Jiaozhou Bay
+* 2016 two weeks biological and chemical field work in the zhoushan island including one day cruise in the Changjiang Estuary 
 
 Work experience
 ======
 * Summer 2015: Research Assistant
-  * Github University
+  * OCENAN iversity
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
