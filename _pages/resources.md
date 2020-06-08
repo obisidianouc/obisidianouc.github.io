@@ -8,9 +8,9 @@ author_profile: true
 
 {% include base_path %}
 
-Education
+Statistics
 ======
-* B.S. in Chemistry, Ocean University of China, 2018
+* Design of Comparative Experiments, A. Bailey [link](http://www.maths.qmul.ac.uk/~rab/DOEbook/)
 * M.S. in Oceanography, Florida State University, 2020 (expected)
 
 Field Work
