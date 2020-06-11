@@ -18,6 +18,9 @@ Ocean data
 1. Go-ship program [link](https://www.go-ship.org/index.html)
 	* Global Ocean Ship-based Hydrographic Investigations Program
 
+1. GEOTRACE [link](https://www.geotraces.org/#)
+	* Trace elements data in the global ocean
+
 Ocean model and tools
 ======
 1. Ocean circulation inverse model (OCIM) from Tim DeVries group [link](https://tdevries.eri.ucsb.edu/models-and-data-products/)
