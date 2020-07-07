@@ -8,6 +8,12 @@ author_profile: true
 
 {% include base_path %}
 
+
+Scientific Writing
+=====
+1. FSU LATEX Template for Theses and Dissertations [link](http://myweb.fsu.edu/bwhissel/fsulatex/)
+1. Publication quality tables in LATWX: using Booktabs packages [Download paper here](http://academicpages.github.io/files/booktabs.pdf)
+
 Ocean data
 ======
 1. MODIS-Aqua satellite product [link](https://oceancolor.gsfc.nasa.gov/l3/)
