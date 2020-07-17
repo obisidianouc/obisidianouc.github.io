@@ -28,6 +28,9 @@ Ocean data
 1. GEOTRACE [link](https://www.geotraces.org/#)
 	* Trace elements data in the global ocean
 
+1. database of [dissolved iron](https://www.bodc.ac.uk/geotraces/data/historical/documents/tagliabue_fe_database_jun2015_public.xlsx) observations with filter sizes ranging from 0.2-0.45 µm. Tagliabue, A., Mtshali, T., Aumont, O., Bowie, A.R., Klunder, M.B., Roychoudhury, A.N., and Swart, S.: A global compilation of dissolved iron measurements: focus on distributions and processes in the Southern Ocean, Biogeosciences, 9, 2333-2349, doi:10.5194/bg-9-2333-2012, 2012
+
+
 Ocean model and tools
 ======
 1. Ocean circulation inverse model (OCIM) from Tim DeVries group [link](https://tdevries.eri.ucsb.edu/models-and-data-products/)
