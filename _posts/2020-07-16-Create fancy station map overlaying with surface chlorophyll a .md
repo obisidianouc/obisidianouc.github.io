@@ -1,11 +1,10 @@
 ---
-title: 'Regional Varaition anlysis in the oceanography'
-date: 2020-07-15
-permalink: /posts/2012/08/blog-post-1/
+title: 'Create fancy station map overlaying with surface chlorophyll a'
+date: 2020-07-16
 tags:
-  - cool posts
-  - category1
-  - category2
+  - data
+  - ocean
+  - map
 ---
 
 This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
