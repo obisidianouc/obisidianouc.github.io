@@ -44,3 +44,5 @@ Statistics
 1. Design of Comparative Experiments, A. Bailey [link](http://www.maths.qmul.ac.uk/~rab/DOEbook/)
 	* " An experiment cannot be better than its data "
 
+1. Error propagation calculator [link](https://www.eoas.ubc.ca/courses/eosc252/error-propagation-calculator-fj.htm)
+
