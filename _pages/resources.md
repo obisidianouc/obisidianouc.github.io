@@ -12,7 +12,7 @@ author_profile: true
 Scientific Writing
 =====
 1. FSU LATEX Template for Theses and Dissertations [link](http://myweb.fsu.edu/bwhissel/fsulatex/)
-1. Publication quality tables in LATEX: using Booktabs packages [Download paper here](http://academicpages.github.io/files/booktabs.pdf)
+1. Publication quality tables in LATEX: using Booktabs packages [Download paper here](http://obisidianouc.github.io/files/booktabs.pdf)
 1. The Website to easily generate tables for LATEX [link](https://www.tablesgenerator.com/#)
 1. Latex mathematic symbols [link](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
 
