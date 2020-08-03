@@ -4,26 +4,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<title>Merge two Data Sheets Containing Different variables .</title>
+		<title>Merge two Data Sheets Containing Different variables</title>
 	</head>
 <body>
-<h2>Merge two Data Sheets Containing Different variables .</h2>
+<h2>Merge two Data Sheets Containing Different variables</h2>
 
-<p>Numerous samples are collected from one cruise and many variables measured from one sample . Each sample is unique in the coordinate of latitude, longitude and depth and assigned an unique id. Many groups are working together to measure different variables in the samples. This is how basic data are assembled in the ocean science. </p>
+<p>Numerous samples are collected from one cruise and many variables measured from one sample. Each sample is unique in a three dimensional coordinate of latitude, longitude and depth and assigned an unique id. Many science groups are cooperating to measure different variables in the samples. This is how basic data are assembled in the ocean science. </p>
 
-<p><br/>If the sample set is small, it is easy to pair the values of every variables to each sample manually. However, when it comes to a big data set with more than 6000 samples, common in the modern program such as GO-SHIP (click the link to see how long is the sampling section! <a href="https://cchdo.ucsd.edu/search?q=GO-SHIP">https://cchdo.ucsd.edu/search?q=GO-SHIP</a>), dealing with these data and pairing the values of every variables to each sample manually become tedious, time-consuming and unfriendly to graduates who just wants to pursue the science. It is lucky when the funds are adequate, employing an undergraduate student or technician with a satisfied payment to merge these data by eyes and hands might work. But if you do so, you might spend more time to double check the potential mistakes … So the question is can we take advantage of the computer and programming skills to merge the variables from separate sheet to one data sheet?<br/><br/>To clarify the problem, let us see the example below. Sample 1 and Sample 2 are two data sheets recording different variables. Both data sheet records cruise name (SECT_ID), station number (STNNBR), sample number (SAMPNO), Latitude, longitude, date. The sample 1 data sheet also contains oxygen, nitrate and phosphate concentration values but the sample 2 data sheet contains silicate concentration values. </p>
+<p><br/>If the sample set is small, it is easy to pair the values of every variable to each sample manually. However, when it comes to a big data set with more than 6000 samples, common in the modern program such as GO-SHIP. You could click the link to see how long is the sampling section!<br/><br/><a href="https://cchdo.ucsd.edu/search?q=GO-SHIP">https://cchdo.ucsd.edu/search?q=GO-SHIP</a><br/><br/>Dealing with these data and pairing the values of every variable to each sample manually is tedious, time-consuming and unfriendly to graduates who just want to pursue the science. It is lucky when the funds are adequate, employing an undergraduate or technician with a satisfied payment to merge these data by eyes and hands might work. But if you do so, you might spend more time to double-check the potential mistakes … The question is can we take advantage of the computer and programming skills to merge the variables from separate sheet to one data sheet?<br/><br/>To clarify the problem, let us see the example below. Sample 1 and Sample 2 are two data sheets recording different variables. Both data sheet records cruise name (SECT_ID), station number (STNNBR), sample number (SAMPNO), Latitude, longitude, date. The sample 1 data sheet also contains oxygen, nitrate and phosphate concentration values but the sample 2 data sheet contains silicate concentration values. </p>
 
 <figure><img src="sample1.png" alt="sample 1 data sheet"/><figcaption>sample 1 data sheet</figcaption></figure>
 
 <figure><img src="sample2.png" alt="sample 2 data sheet"/><figcaption>sample 2 data sheet</figcaption></figure>
 
-<p><br/>Take first look at the data sheet, we find that the sample number in the sample 1 data sheet is in descending order. But…look at the sample number of sample 2 data sheet, they are messy due to it is recorded by a sleepy and careless undergraduate who drink in the party last night… Now the advisor ask you to merge these two data sheet into one with the final appearance popped up in the advisor’s head.</p>
+<p><br/>Take first look at the data sheet, we find that the sample number in the sample 1 data sheet is in descending order. But…look at the sample number of sample 2 data sheet, they are messy due to it is recorded by a sleepy and careless undergraduate who drink in the party last night… Now the advisor asks you to merge these two data sheet into one with the final appearance popped up in the advisor’s head.</p>
 
 <figure><img src="final%20sheet.png" alt="The final data sheet popped up in your advisor&#39;s head.."/><figcaption>The final data sheet popped up in your advisor&#39;s head..</figcaption></figure>
 
 <p><br/>You might first complain about that paid undergraduate why he did not organize the data sheet in a descending way and gradually accept the messy reality and begin to think how to make it.</p>
 
-<p><br/>Here we provide a approach in the R environment to solve this problem. The codes are below. Tidyverse is an opinionated collection of R packages designed for data science and can be downloaded by</p>
+<p><br/>Here we provide an approach in the R environment to solve this problem. The codes are below. Tidyverse is an opinionated collection of R packages designed for data science and can be downloaded by:</p>
 
 <p><br/><code>install.packages(&quot;tidyverse&quot;)<br/>
 </code></p>
@@ -33,7 +33,7 @@
 sample1 &lt;- read.csv(&quot;sample1.csv&quot;)
 sample2 &lt;- read.csv(&quot;sample2.csv&quot;)
 
-# select station,sample number and silcate concentration column
+# select station,sampleand silcate concentration column from sample2 
 sample2_1 &lt;- sample2 %&gt;%
   select(STNNBR,SAMPNO,SILCAT)
 
