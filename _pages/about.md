@@ -14,9 +14,10 @@ I am currently an graduate student working on marine biogeochemistry at Florida 
 
 Research Interests
 ======
-1. Nitrogen and phosphorus cycling in the global ocean
+1. Nutrient cycling in the global ocean 
 1. Dissolved organic nitrogen (DON) and dissolved organic phosphorus (DOP) cycling in the ocean
 1. Global biogeochemical modeling 
+1. Ocean data science
 
 
 ------
