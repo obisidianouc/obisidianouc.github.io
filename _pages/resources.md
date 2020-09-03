@@ -32,6 +32,7 @@ Ocean data
 1. OUTPACE experiment special issue publications [link](https://bg.copernicus.org/articles/special_issue894.html)
 1. database of [dissolved iron](https://www.bodc.ac.uk/geotraces/data/historical/documents/tagliabue_fe_database_jun2015_public.xlsx) observations with filter sizes ranging from 0.2-0.45 µm. Tagliabue, A., Mtshali, T., Aumont, O., Bowie, A.R., Klunder, M.B., Roychoudhury, A.N., and Swart, S.: A global compilation of dissolved iron measurements: focus on distributions and processes in the Southern Ocean, Biogeosciences, 9, 2333-2349, doi:10.5194/bg-9-2333-2012, 2012
 1. Sea Surface Salinity satellite product (Aquarius V4) [link](https://salinity.oceansciences.org/data-aq-processing-v4.htm) more recent data can be found in [link](https://podaac.jpl.nasa.gov/dataset/SMAP_RSS_L2_SSS_V4)
+1. Oceanhack 2020， introducing many software skills [link](https://oceanhackweek.github.io/ohw-resources/)
 
 Ocean softwares
 ======
