@@ -22,7 +22,7 @@ Ocean data
 	* high spatial and temporal resolution of surface ocean properties, e.g. surface chlorophyll concentration, Sea Surface Temperature
 1. CCHDO [link](https://cchdo.ucsd.edu/)
 	* CCHDO deliver the highest possible quality global CTD and hydrographic data from WOCE, CLIVAR and numerous other oceanographic research programs
-
+1. Ocean net primary production data [link](http://sites.science.oregonstate.edu/ocean.productivity/standard.product.php)
 1. Go-ship program [link](https://www.go-ship.org/index.html)
 	* Global Ocean Ship-based Hydrographic Investigations Program
 
