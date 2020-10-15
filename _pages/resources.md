@@ -30,7 +30,7 @@ Ocean data
 	* Trace elements data in the global ocean
 1. Oligotrophy to ultra-oligotrophy pacific experiment OUTPACE database [link](http://www.obs-vlfr.fr/proof/php/outpace/outpace_data.php)
 1. BIOSOPE cruise data [link](http://www.obs-vlfr.fr/proof/vt/op/ec/biosope/bio.htm)
-1. A intriguing data set of DOP in Pacific Ocean by Fuminori et.al, 2020 [link](https://oacis.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=1939&item_no=1&page_id=13&block_id=21)
+1. An intriguing data set of DOP in Pacific Ocean by Fuminori et.al, 2020 [link](https://oacis.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=1939&item_no=1&page_id=13&block_id=21)
 1. OUTPACE experiment special issue publications [link](https://bg.copernicus.org/articles/special_issue894.html)
 1. database of [dissolved iron](https://www.bodc.ac.uk/geotraces/data/historical/documents/tagliabue_fe_database_jun2015_public.xlsx) observations with filter sizes ranging from 0.2-0.45 µm. Tagliabue, A., Mtshali, T., Aumont, O., Bowie, A.R., Klunder, M.B., Roychoudhury, A.N., and Swart, S.: A global compilation of dissolved iron measurements: focus on distributions and processes in the Southern Ocean, Biogeosciences, 9, 2333-2349, doi:10.5194/bg-9-2333-2012, 2012
 1. Sea Surface Salinity satellite product (Aquarius V4) [link](https://salinity.oceansciences.org/data-aq-processing-v4.htm) more recent data can be found in [link](https://podaac.jpl.nasa.gov/dataset/SMAP_RSS_L2_SSS_V4)
@@ -45,7 +45,7 @@ Ocean model and tools
 ======
 1. Ocean circulation inverse model (OCIM) from Tim DeVries group [link](https://tdevries.eri.ucsb.edu/models-and-data-products/)
 	* OCIM is a matlab-based, data-assimilation model to facilitate the simulation of biogeochemical tracers
-
+1. SIAR mixing model for stable isotope analysis [link](https://maths.ucd.ie/~parnell_a/media/SIAR_For_Ecologists.pdf)
 
 Statistics
 ======
