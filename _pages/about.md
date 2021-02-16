@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-I am currently an graduate student working on marine biogeochemistry at Florida State University
+I am currently a graduate student working on marine biogeochemistry at Florida State University
 
 Research Interests
 ======
